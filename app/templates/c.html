@@ -15,6 +15,54 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+    <div class="box">
+      <div class="stretch mybox">One</div>
+      <div class="stretch mybox">Two</div>
+      <div class="stretch mybox">Three</div>
+      <div class="stretch mybox">Four</div>
+      <div class="stretch mybox">Five</div>
+      <div class="stretch mybox">Six</div>
+      <div class="stretch mybox">Seven</div>
+      <div class="stretch mybox">Eight</div>
+      <div class="stretch mybox">Nine</div>
+      <div class="stretch mybox">Ten</div>
+      <div class="stretch mybox">Eleven</div>
+      <div class="stretch mybox">Twelve</div>
+      <div class="stretch mybox">Thirteen</div>
+      <div class="stretch mybox">Fourteen</div>
+      <div class="stretch mybox">Fifteen</div>
+    </div>
+	</body>
+  
+  <style>
+    .mybox {
+      background-color: gray;
+      font-size: 24px;
+      border-style: solid;
+      width: 15%;
+      height: 25%;
+      text-align: center;
+      align-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .box {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 500px;
+      align-content:flex-start;
+    }
+    .stretch {
+      align-self: stretch;
+    }
+    .box .selected {
+      align-self: center;
+    }
+      
+  </style>
 	</body>
 </html>
